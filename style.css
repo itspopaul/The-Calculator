@@ -77,7 +77,46 @@ form input.operator{
     color: red;
 }
 
+@media (max-width: 372px ) {
+   .calculator form input, form input.equal{
+        margin: 5px;
+        width: 60px;
+        
+    }
+    
+}
 
+
+@media (max-width: 344px ) {
+    form input.equal{
+        width: 110px;
+     }
+     
+ }
+
+ @media (max-width: 332px ) {
+    .calculator form input{
+        margin: 3px;
+     }
+     
+ }
+
+
+
+ @media (max-width: 320px ) {
+    .calculator form input{
+        margin: 3px;
+     }
+     
+ }
+
+ @media (max-width: 280px ) {
+    .calculator form input{
+        margin: 3px;
+        width: 50px;
+     }
+     
+ }
 
 
 
